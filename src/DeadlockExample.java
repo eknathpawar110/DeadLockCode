@@ -1,5 +1,4 @@
 public class DeadlockExample {
-
     static class Resource {
         private final String name;
 
@@ -58,6 +57,11 @@ public class DeadlockExample {
         thread1.join();
         thread2.join();
 
-
+/*      1) open the command line interface and then navigate to the directory
+                -> cd /path/to/your/javafile
+        2) compile the java file
+                -> javac DeadlockExample.java
+        3) run the compiled Java class
+                -> java DeadlockExample   */
     }
 }
